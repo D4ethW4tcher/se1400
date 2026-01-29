@@ -16,4 +16,8 @@ body {
 }
 * {
     color:white;
+    text-align: center;
+}
+ul, li {
+    list-style-position: inside;
 }
