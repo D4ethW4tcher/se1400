@@ -34,3 +34,20 @@ dt
     font-weight:bold;
     color:#003058;
 }
+.ut
+{
+    color:#BA1C21;
+    font-weight:bold;
+}
+footer
+{
+    font-size:.70rem;
+    text-align: center;
+    font: italic;
+}
+#wrapper
+{
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+}
