@@ -9,6 +9,7 @@ header
 {
     background-color:#003058;
     color:#FFF;
+    
 }
 
 header h1
@@ -50,4 +51,10 @@ footer
     width:80%;
     margin-right: auto;
     margin-left: auto;
+}
+.UTlogo
+{
+
+    margin-left: auto;
+
 }
