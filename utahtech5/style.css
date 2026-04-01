@@ -64,7 +64,7 @@ nav a {
     text-align: center;
 }
 
-nav a:hover {
+nav a: hover {
     background-color: #BA1C21;
 }
 
@@ -176,7 +176,7 @@ footer {
     }
 
     nav ul {
-        flex-flow:column nowrap;
+        flex-flow: column nowrap;
     }
 
     main img {
@@ -185,4 +185,24 @@ footer {
     height: auto;
     padding-left: 0px;
     }
+}
+@media only screen and (max-width: 600px) {
+    #wrapper {
+        grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 50px)) minmax(0px, 1fr);
+        
+    }
+
+    header h1 {
+        background-image: none;
+        text-align: center;
+    }
+
+    nav {
+        grid-row:2/3;
+        grid-column:1/-1;
+    }
+    #homehero, #studenthero, #facultyhero {
+        display: none;
+    }
+    
 }
