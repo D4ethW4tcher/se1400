@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-/* grid-area: row-start / column-start / row-end / column-end; */
+
 body {
     background: linear-gradient(to bottom, #eee, #fff);
     background-attachment: fixed;
@@ -106,6 +106,32 @@ footer {
     padding: 1rem;
     grid-row: 5/6;
     grid-column: 2/-2;
+}
+
+form {
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 200px 1fr;
+    gap: .75rem;
+    width: 100%;
+}
+
+label {
+        padding: 10px;
+        text-align: right;
+    }
+
+input textarea{
+    font-size: 1rem;
+    padding: 10px;
+    color:#666666;
+    background-color: #fafafa;
+    border: none;
+}
+
+input textarea :focus {
+    outline: none;
+    background-color: #f0f0f0;
 }
 
 #homehero {
