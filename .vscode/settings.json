@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/Color & CSS/index.html"
+    "livePreview.defaultPreviewPath": "/Color & CSS/index.html",
+    "files.autoSave": "afterDelay"
 }
