@@ -43,15 +43,3 @@ footer{
     grid-row: 20/24;
     background-color: rgba(255, 255, 0, .7);
 }
-
-@media only screen and (max-width: 992px){
-    wrapper{
-        grid-template-columns: minmax(0px, 1fr) 768px minmax(0px, 1fr);
-    }
-}
-
-@media only screen and (max-width: 768px){
-    wrapper{
-        grid-template-columns: 0 100% 0;
-    }
-}
